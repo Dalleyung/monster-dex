@@ -38,7 +38,7 @@ def install_packages(root):
 
 def request_restart(root):
     print("[3/4] 재시작 요청")
-    (root / "restart.flag").write_text(str(time.time()), encoding="utf-8")
+    (root / "restart.flag").write_text(str(time.time()), encoding="utf-16")
 
 
 def check_health():

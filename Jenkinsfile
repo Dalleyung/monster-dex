@@ -47,7 +47,7 @@ pipeline {
         }
         stage('Deploy') {       
             steps {            
-                runCmd "${env.VPY} deloy.py"
+                runCmd "${env.VPY} deploy.py"
             }
         }
     }
